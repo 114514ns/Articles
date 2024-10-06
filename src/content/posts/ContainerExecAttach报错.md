@@ -1,3 +1,14 @@
+---
+title: ContainerExecAttach报错
+published: 2024-10-05
+description: ''
+image: ''
+tags: ['Docker','go']
+category: ''
+draft: false 
+---
+
+
 使用go语言操作docker。并在容器内部执行命令，会使用Client.ContainerExecAttach方法，然而发现大部分命令无法执行，网上也没找到解决方法。
 
 ![](https://imgbed-1254007525.cos.ap-nanjing.myqcloud.com//img/20241005220613.png)
